@@ -1,9 +1,3 @@
-/*Configuração do fundo através de
-referencia da tag <body> */
-
-body {}
-
-
 /*Configuração do imagem através de
 referencia da identificador #banner */
 
@@ -20,10 +14,17 @@ referencia da identificador #banner */
 }
 
 
+/*Configuração do objeto criado através da referência a classe .titulo-principal*/
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+
 /*Configuração do texto através de
 referencia da tag <h1< */
 
-h1 {
+.titulo-centralizado {
     text-align: center;
     margin: 40px;
 }
@@ -57,13 +58,6 @@ em strong {
 .itens {
     font-style: italic;
     font-size: 20px;
-}
-
-
-/*Configuração do texto através da referência da tag <h2>*/
-
-h2 {
-    text-align: center;
 }
 
 
