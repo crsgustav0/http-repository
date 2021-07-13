@@ -1,9 +1,7 @@
 /*Configuração do fundo através de
 referencia da tag <body> */
 
-body {
-    background-color: #CCCCCC;
-}
+body {}
 
 
 /*Configuração do imagem através de
@@ -11,6 +9,13 @@ referencia da identificador #banner */
 
 #banner {
     width: 100%;
+}
+
+
+/*Configuração do objeto criado através da referência a classe .principal*/
+
+.principal {
+    background-color: #CCCCCC;
 }
 
 
@@ -51,4 +56,18 @@ em strong {
 .itens {
     font-style: italic;
     font-size: 20px;
+}
+
+
+/*Configuração do objeto criado através da referência a classe .beneficios*/
+
+.beneficios {
+    background-color: #FFFFFF;
+}
+
+
+/*Configuração do texto através da referência da tag <em> <h2>*/
+
+h2 {
+    text-align: center;
 }
