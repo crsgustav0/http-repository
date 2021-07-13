@@ -1,24 +1,54 @@
+/*Configuração do fundo através de
+referencia da tag <body> */
+
 body {
     background-color: #CCCCCC;
 }
 
+
+/*Configuração do imagem através de
+referencia da identificador #banner */
+
 #banner {
     width: 100%;
 }
+
+
+/*Configuração do texto através de
+referencia da tag <h1< */
 
 h1 {
     text-align: center;
     margin: 40px;
 }
 
+
+/*Configuração do texto através da referencia
+a tag <p> */
+
 p {
     text-align: center;
 }
+
+
+/*Confiuração do texto através da referencia 
+ao identificador #missao*/
 
 #missao {
     font-size: 20px;
 }
 
+
+/*Configuração do texto através da referência da tag <em> <strong>*/
+
 em strong {
     color: #FF0000;
+}
+
+
+/*Configuração do objeto criado através da referência a classe .itens*/
+
+.itens {
+    font-style: italic;
+    font-size: 20px;
 }
