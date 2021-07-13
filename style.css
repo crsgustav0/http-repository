@@ -16,6 +16,7 @@ referencia da identificador #banner */
 
 .principal {
     background-color: #CCCCCC;
+    padding: 30px;
 }
 
 
@@ -59,15 +60,25 @@ em strong {
 }
 
 
-/*Configuração do objeto criado através da referência a classe .beneficios*/
-
-.beneficios {
-    background-color: #FFFFFF;
-}
-
-
-/*Configuração do texto através da referência da tag <em> <h2>*/
+/*Configuração do texto através da referência da tag <h2>*/
 
 h2 {
     text-align: center;
+}
+
+
+/*Configuração do texto através da referência da tag <ul>*/
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+
+/*Configuração do objeto criado através da referência a classe .beneficios*/
+
+.img_beneficios {
+    width: 50;
 }
