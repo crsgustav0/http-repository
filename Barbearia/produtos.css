@@ -1,0 +1,56 @@
+/*
+    header - Referente a tag <header> criada no arquivo 
+    HTML
+*/
+
+header {
+    background-color: #CCCCCC;
+}
+
+
+/*
+    nav li - Referente a TODOS os itens (li) que estão dentro 
+    da tag <nav>
+
+    margin - Referente a separação do conteúdo dos itens sendo:
+    1º valor passado referente ao topo
+    2º valor passado referente a direita
+    3º valor passado referente a baixo
+    4º valor passado referente a esquerda
+*/
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+
+/*
+    nav a - Referente a TODOS os links (a) que estão dentro 
+    da tag <nav>
+
+    text-transform: - Usada para configuração visual do objeto CSS
+    uppercase - Referente a formatação MAISCULA do conteudo passado 
+    via objeto CSS
+
+    font-weight: - Usada para informar o 'peso' da fonte
+    bold; - Formatação do texto em NEGRITO
+
+    font-size: - Usada para configuração visual do tamanhho do contéudo 
+    passado via objeto CSS
+    22px; - Formatação do tamanho do texto em 22px (pixels)
+
+    text-decoration: - Usada para decoração visual do conteúdo passado
+    via objeto CSS
+    none; - Remove todas as formatações visuais do conteúdo passado 
+    via objeto CSS
+
+*/
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
