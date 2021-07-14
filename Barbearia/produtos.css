@@ -1,10 +1,51 @@
 /*
     header - Referente a tag <header> criada no arquivo 
     HTML
+
+    padding - Referente ao espaçamento do cabeçalho da 
+    página HTML
+    
+    20px (pixel) - 1º e 2º valor passado topo e abaixo
+    0 - 3º e 4º valor passado esquerda e esquerda
 */
 
 header {
     background-color: #CCCCCC;
+    padding: 20px 0;
+}
+
+
+/*
+    .caixa - referente a tag <div> criada para centralizar a 
+    formatação do cabeçalho da página HTML
+
+    absolute - Referente a formatação do classe .caixa
+    margin - Referente a separação do conteúdo dos itens sendo:
+   
+    0 - 1º e 2º valor passado topo e direita
+    auto - 3º e 4º valor passado baixo e esquerda, faz
+    o ajuste automático de acordo com sua exibição
+*/
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+/*
+    nav - Referente a tag <nav>, contendo os itens de navegação
+
+    absolute - Referente a formatação do tag <nav>
+    top -  valor passado referente ao topo
+    right -  valor passado referente a direita
+*/
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 
