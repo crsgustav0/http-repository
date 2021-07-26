@@ -95,3 +95,85 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
+
+/*
+    produto - referente a classe produtos, criada para centralizar a formatação dos itens da lista da página HTML
+    margin - Referente a separação do conteúdo dos itens sendo:
+   
+    0 - 1º e 2º valor passado topo e direita
+    auto - 3º e 4º valor passado baixo e esquerda, faz
+    o ajuste automático de acordo com sua exibição
+    
+    text-allign: Referente a centralização do conteudo do objeto
+    center: Referente a formatação escolhida, centralização do conteudo do objeto
+*/
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+
+/*
+    produtos li - referente a TODOS os itens (li) que estão dentro da tag <li>, criada para centralizar a formatação dos itens da lista da página HTML
+
+    display - Referente a formatação da exibição do objeto
+    text-allign: Referente a centralização do conteudo do objeto
+    center: Referente a formatação escolhida, centralização do conteudo do objeto
+    width - Referente ao preenchimento do objeto ao seu espaçamento, sendo igual a 30% do seu tamanho 
+    originalmente definido
+
+    vertical-align: - Referente ao alinhamento escolhido do objeto
+    top -  
+*/
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+
+/*
+    produtos h2 - referente a TODOS os itens (h2) que estão dentro da tag <li>, criada para centralizar a formatação dos itens da lista da página HTML
+
+    font-size: - Usada para configuração visual do tamanhho do contéudo 
+    passado via objeto CSS
+    22px; - Formatação do tamanho do texto em 22px (pixels)
+*/
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/*
+    preco_produtos - referente a TODOS os itens que estão dentro da tag <p>, criada para centralizar a formatação dos itens contendo a descrição dos produtos
+
+    font-size: - Usada para configuração visual do tamanhho do contéudo 
+    passado via objeto CSS
+    22px; - Formatação do tamanho do texto em 22px (pixels)
+*/
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+
+/*
+    preco_produtos - referente a TODOS os itens que estão dentro da tag <p>, criada para centralizar a formatação dos itens contendo o preço dos produtos
+
+    font-size: - Usada para configuração visual do tamanhho do contéudo 
+    passado via objeto CSS
+    22px; - Formatação do tamanho do texto em 22px (pixels)
+*/
+
+.produtos-preco {
+    font-size: 20px;
+    font-weight: bold;
+}
