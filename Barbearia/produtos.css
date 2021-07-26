@@ -127,7 +127,9 @@ nav a {
     originalmente definido
 
     vertical-align: - Referente ao alinhamento escolhido do objeto
-    top -  
+
+    box-sizing - Atribuição definitiva do espaçamento do componente através do valor atribuido ao 'width'
+    sendo igual a 30%
 */
 
 .produtos li {
@@ -135,6 +137,10 @@ nav a {
     text-align: center;
     width: 30%;
     vertical-align: top;
+    background-color: #CCCCCC;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
 }
 
 
@@ -176,4 +182,5 @@ nav a {
 .produtos-preco {
     font-size: 20px;
     font-weight: bold;
+    margin: 10px 0 0;
 }
