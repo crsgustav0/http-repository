@@ -135,7 +135,12 @@ nav a {
     2px - Tamanho
     solid - Configuração da borda
     #000000 - Cor da borda
-    
+
+    border-radius - Declaração do raio de largura das bordar do objeto, tornando-o arredondado 
+    em suas extremidades
+    10px - Tamanho do raio
+
+
 */
 
 .produtos li {
@@ -147,7 +152,8 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
 
