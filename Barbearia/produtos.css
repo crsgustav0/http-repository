@@ -158,9 +158,49 @@ nav a {
 
 
 /*
+    produtos li - Referente a todos os itens (li) contido dentro da classe '.produtos'
+    li: Usado para referencia ao item da lista
+    hover - Evento quando o mouse esta SOBRE o elemento
+
+    border-color - Referente a formatação visual atribuida ao borda do objeto
+*/
+
+.produtos li:hover {
+    border-color: #ffb700;
+}
+
+
+/*
+    produtos li - Referente a todos os itens (li) contido dentro da classe '.produtos'
+    li: Usado para referencia ao item da lista
+    active - Evento quando o mouse é CLICADO SOBRE o elemento
+
+    border-color - Referente a formatação visual atribuida ao borda do objeto
+*/
+
+.produtos li:active {
+    border-color: #088c19;
+}
+
+
+/*
+    produtos li - Referente a todos os itens (li) contido dentro da classe '.produtos'
+    li: Usado para referencia ao item da lista
+    hover - Evento quando o mouse esta SOBRE o elemento
+    h2 - Especifica o componente será MODIFICADO a partir do evento
+
+    border-color - Referente a formatação visual atribuida ao borda do objeto
+*/
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+
+/*
     nav - Referente a todos os itens de navegação (nav) que estão dentro da tag <li>
     a: Usado para referencia ao link
-    hover - Evento qua ndo o mouse esta SOBRE o elemento
+    hover - Evento quando o mouse esta SOBRE o elemento
 
     text-decoration - Referente a formatação visual atribuida ao conteudo do texto
     underline - Configuração que deixa o conteúdo do texto SUBLINHADO
