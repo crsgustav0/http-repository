@@ -252,3 +252,22 @@ nav a:hover {
     font-weight: bold;
     margin: 10px 0 0;
 }
+
+
+/*
+    footer - referente a todos os itens que estão dentro da tag <footer>, criada para alocar o conteúdo
+    do rodapé da pagina HTML
+
+    text-allign: Referente a centralização do conteudo do objeto
+    center: Referente a formatação escolhida, centralização do conteudo do objeto
+
+    background - Referente a formatação do FUNDO da componente
+    url - Diretorio fisico da imagem que será usada como FUNDO do objeto, replicando 
+    até que seja completamente preenchida
+*/
+
+footer {
+    text-align: center;
+    background: url("./src/bg.jpg");
+    padding: 40px 0;
+}
