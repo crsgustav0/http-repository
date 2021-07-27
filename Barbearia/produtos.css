@@ -130,6 +130,12 @@ nav a {
 
     box-sizing - Atribuição definitiva do espaçamento do componente através do valor atribuido ao 'width'
     sendo igual a 30%
+
+    border - Declaração universal da borda que será aplicada no objeto
+    2px - Tamanho
+    solid - Configuração da borda
+    #000000 - Cor da borda
+    
 */
 
 .produtos li {
@@ -141,6 +147,7 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid #000000
 }
 
 
