@@ -158,6 +158,21 @@ nav a {
 
 
 /*
+    nav - Referente a todos os itens de navegação (nav) que estão dentro da tag <li>
+    a: Usado para referencia ao link
+    hover - Evento qua ndo o mouse esta SOBRE o elemento
+
+    text-decoration - Referente a formatação visual atribuida ao conteudo do texto
+    underline - Configuração que deixa o conteúdo do texto SUBLINHADO
+*/
+
+nav a:hover {
+    color: #ffb700;
+    text-decoration: underline;
+}
+
+
+/*
     produtos h2 - referente a TODOS os itens (h2) que estão dentro da tag <li>, criada para centralizar a formatação dos itens da lista da página HTML
 
     font-size: - Usada para configuração visual do tamanhho do contéudo 
