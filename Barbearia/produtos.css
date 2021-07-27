@@ -271,3 +271,20 @@ footer {
     background: url("./src/bg.jpg");
     padding: 40px 0;
 }
+
+
+/*
+    .copyright - referente a todos os itens contidos dentro da classe 'copyright', criada para formatação do conteúdo do rodapé da pagina HTML
+    font-size - Referente a formatação do tamanho do conteúdo do texto
+
+    color: Referente a formatação visual da cor do conteuúdo
+    margin-top: Referente ao espaçamento informado ao objeto
+
+    até que seja completamente preenchida
+*/
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px 0 0;
+}
